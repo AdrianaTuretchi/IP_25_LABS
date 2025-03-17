@@ -3,6 +3,7 @@ import java.security.NoSuchAlgorithmException;
 import java.util.Random;
 
 public class AuthUser {
+    public String userId;
     public String username;
     public byte[] password;
     public String salt;
